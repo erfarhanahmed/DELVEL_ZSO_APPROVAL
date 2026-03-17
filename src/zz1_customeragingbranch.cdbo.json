@@ -1,0 +1,186 @@
+{
+  "formatVersion": "1",
+  "header": {
+    "description": "Customer Aging Branch Wise",
+    "originalLanguage": "en",
+    "abapLanguageVersion": "keyUser"
+  },
+  "generalInformation": {
+    "objectType": "03",
+    "objectName": "ZZ1_CUSTOMERAGINGBRANCH"
+  },
+  "fields": [
+    {
+      "name": "/SAP/1_COMPANYCODE",
+      "nature": "nonBusinessInformation"
+    },
+    {
+      "name": "/SAP/1_CONTROLLINGAREA",
+      "nature": "nonBusinessInformation"
+    },
+    {
+      "name": "/SAP/1_CUSTOME_JCNBZX_ATIONGRP",
+      "nature": "nonBusinessInformation"
+    },
+    {
+      "name": "/SAP/1_CUSTOME_LWLS2E_ATIONGRP",
+      "nature": "nonBusinessInformation"
+    },
+    {
+      "name": "/SAP/1_GLACCOUNT",
+      "nature": "nonBusinessInformation"
+    },
+    {
+      "name": "/SAP/1_PROFITCENTER",
+      "nature": "nonBusinessInformation"
+    },
+    {
+      "name": "ACCOUNTINGCLERK",
+      "nature": "general"
+    },
+    {
+      "name": "ACCOUNTINGDOCUMENT",
+      "nature": "general"
+    },
+    {
+      "name": "ACCOUNTINGDOCUMENTITEM",
+      "nature": "general"
+    },
+    {
+      "name": "ASSIGNMENTREFERENCE",
+      "nature": "general"
+    },
+    {
+      "name": "BILLINGDOCUMENT",
+      "nature": "general"
+    },
+    {
+      "name": "BUSINESSAREA",
+      "nature": "general"
+    },
+    {
+      "name": "CHARTOFACCOUNTS",
+      "nature": "general"
+    },
+    {
+      "name": "COMPANYCODE",
+      "nature": "general"
+    },
+    {
+      "name": "CONTROLLINGAREA",
+      "nature": "general"
+    },
+    {
+      "name": "CUSTOMER",
+      "nature": "general"
+    },
+    {
+      "name": "CUSTOMERACCOUNTGROUP",
+      "nature": "general"
+    },
+    {
+      "name": "CUSTOMERCLASSIFICATION",
+      "nature": "general"
+    },
+    {
+      "name": "CUSTOMERCOUNTRY",
+      "nature": "general"
+    },
+    {
+      "name": "CUSTOMERREGION",
+      "nature": "general"
+    },
+    {
+      "name": "DISPLAYCURRENCY",
+      "nature": "general"
+    },
+    {
+      "name": "FINANCIALACCOUNTTYPE",
+      "nature": "general"
+    },
+    {
+      "name": "FIRSTINTVLFUTRDUEAMTINDSPCRCY",
+      "nature": "general"
+    },
+    {
+      "name": "FISCALYEAR",
+      "nature": "general"
+    },
+    {
+      "name": "FOURTHINTVLFUTRDUEAMTINDSPCRCY",
+      "nature": "general"
+    },
+    {
+      "name": "GLACCOUNT",
+      "nature": "general"
+    },
+    {
+      "name": "LEDGERGLLINEITEM",
+      "nature": "general"
+    },
+    {
+      "name": "NETDUEINTERVALTEXT",
+      "nature": "general"
+    },
+    {
+      "name": "NETDUEINTVL1AMTINDSPCRCY",
+      "nature": "general"
+    },
+    {
+      "name": "NETDUEINTVL2AMTINDSPCRCY",
+      "nature": "general"
+    },
+    {
+      "name": "NETDUEINTVL3AMTINDSPCRCY",
+      "nature": "general"
+    },
+    {
+      "name": "NETDUEINTVL4AMTINDSPCRCY",
+      "nature": "general"
+    },
+    {
+      "name": "PROFITCENTER",
+      "nature": "general"
+    },
+    {
+      "name": "RECONCILIATIONACCOUNT",
+      "nature": "general"
+    },
+    {
+      "name": "SECONDINTVLFUTRDUEAMTINDSPCRCY",
+      "nature": "general"
+    },
+    {
+      "name": "SEGMENT",
+      "nature": "general"
+    },
+    {
+      "name": "SPECIALGLCODE",
+      "nature": "general"
+    },
+    {
+      "name": "THIRDINTVLFUTRDUEAMTINDSPCRCY",
+      "nature": "general"
+    },
+    {
+      "name": "TOTALAMOUNTINDISPLAYCRCY",
+      "nature": "general"
+    },
+    {
+      "name": "TOTALNOTOVRDAMTINDSPCRCY",
+      "nature": "general"
+    },
+    {
+      "name": "TOTALOVERDUEAMTINDSPCRCY",
+      "nature": "general"
+    },
+    {
+      "name": "VKBUR",
+      "nature": "general"
+    },
+    {
+      "name": "SALESOFFICE",
+      "nature": "general"
+    }
+  ]
+}

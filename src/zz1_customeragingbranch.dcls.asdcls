@@ -1,0 +1,12 @@
+//DO NOT MODIFY! Basis CDS Entity: I_ARJrnlEntrItmAgingGrid
+@EndUserText.label: 'Description for Role: ZZ1_CUSTOMERAGINGBranch'
+@MappingRole: 'true'
+role ZZ1_CUSTOMERAGINGBranch {
+    grant SELECT on ZZ1_CUSTOMERAGINGBranch
+      where
+        inheriting conditions from entity I_ARJrnlEntrItmAgingGrid default true
+         replacing {
+          prefix with '/SAP/&_', parameters with( P_KeyDate: $parameters.P_KeyDate, P_NetDueInterval1InDays: $parameters.P_NetDueInterval1InDays, P_NetDueInterval2InDays: $parameters.P_NetDueInterval2InDays, P_NetDueInterval3InDays: $parameters.P_NetDueInterval3InDays, P_DisplayCurrency: $parameters.P_DisplayCurrency, P_ExchangeRateType: $parameters.P_ExchangeRateType )
+        }
+    ;
+}
